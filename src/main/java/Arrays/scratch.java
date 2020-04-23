@@ -12,3 +12,13 @@
 //
 ////Yields results from Pasan's eighteenth hole
 //scoreCards[2][17];
+
+//import java.util.Arrays;
+//import java.util.Comparator;
+//
+//String[] friends = {
+//        "Treasure",
+//        "Ben",
+//        "Alena",
+//        "Jerry",
+//        "Craig"};
