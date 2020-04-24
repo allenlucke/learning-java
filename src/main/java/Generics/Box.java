@@ -1,9 +1,9 @@
 package Generics;
 
-class Box {
-    private Object contents;
+class Box<T extends Object> {
+    private T contents;
 
-    void add(Object thing) {
+    void add(T thing) {
         if (contents == null) {
             contents = thing;
         } else {
@@ -11,12 +11,12 @@ class Box {
         }
     }
 
-    Object remove() {
+    T remove() {
         if (contents == null) {
             System.out.println("The box is empty.");
             return null;
         } else {
-            Object thing = contents;
+            T thing = contents;
             contents = null;
             return thing;
         }
